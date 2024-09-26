@@ -1,0 +1,138 @@
+[debug] [2024-09-26T00:39:39.255Z] ----------------------------------------------------------------------
+[debug] [2024-09-26T00:39:39.257Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-26T00:39:39.258Z] CLI Version:   13.19.0
+[debug] [2024-09-26T00:39:39.258Z] Platform:      win32
+[debug] [2024-09-26T00:39:39.258Z] Node Version:  v18.18.0
+[debug] [2024-09-26T00:39:39.259Z] Time:          Wed Sep 25 2024 20:39:39 GMT-0400 (hora de Bolivia)
+[debug] [2024-09-26T00:39:39.259Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-26T00:39:39.262Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-09-26T00:39:39.296Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-26T00:39:39.296Z] > authorizing via signed-in user (tjonatan0320@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jonat\proyectoprueba-produccion
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-26T00:39:50.837Z] > refreshing access token with scopes: []
+[debug] [2024-09-26T00:39:50.838Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-09-26T00:39:50.838Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-09-26T00:40:00.368Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 2600:1901:0:4d00:::443
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-09-26T00:40:00.369Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-09-26T00:40:11.855Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------781462863763030936830410","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: connect ETIMEDOUT 2800:3f0:4003:c08::5f:443
+[debug] [2024-09-26T00:40:11.855Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-09-26T00:40:16.861Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-09-26T00:40:28.600Z] ----------------------------------------------------------------------
+[debug] [2024-09-26T00:40:28.601Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-26T00:40:28.602Z] CLI Version:   13.19.0
+[debug] [2024-09-26T00:40:28.602Z] Platform:      win32
+[debug] [2024-09-26T00:40:28.602Z] Node Version:  v18.18.0
+[debug] [2024-09-26T00:40:28.603Z] Time:          Wed Sep 25 2024 20:40:28 GMT-0400 (hora de Bolivia)
+[debug] [2024-09-26T00:40:28.603Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-26T00:40:28.605Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-09-26T00:40:28.642Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-26T00:40:28.642Z] > authorizing via signed-in user (tjonatan0320@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jonat\proyectoprueba-produccion
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-26T00:40:49.656Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 2600:1901:0:4d00:::443
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-09-26T00:40:49.656Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-09-26T00:41:26.989Z] > refreshing access token with scopes: []
+[debug] [2024-09-26T00:41:26.990Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-09-26T00:41:26.990Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-09-26T00:41:47.994Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------805172012850816796911946","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: connect ETIMEDOUT 2800:3f0:4003:c08::5f:443
+[debug] [2024-09-26T00:41:47.995Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-09-26T00:41:52.999Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-09-26T00:42:18.478Z] ----------------------------------------------------------------------
+[debug] [2024-09-26T00:42:18.479Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-09-26T00:42:18.479Z] CLI Version:   13.19.0
+[debug] [2024-09-26T00:42:18.479Z] Platform:      win32
+[debug] [2024-09-26T00:42:18.479Z] Node Version:  v18.18.0
+[debug] [2024-09-26T00:42:18.480Z] Time:          Wed Sep 25 2024 20:42:18 GMT-0400 (hora de Bolivia)
+[debug] [2024-09-26T00:42:18.480Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-26T00:42:18.482Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as tjonatan0320@gmail.com
+[debug] [2024-09-26T00:42:28.522Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-09-26T00:42:39.535Z] ----------------------------------------------------------------------
+[debug] [2024-09-26T00:42:39.537Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-09-26T00:42:39.537Z] CLI Version:   13.19.0
+[debug] [2024-09-26T00:42:39.537Z] Platform:      win32
+[debug] [2024-09-26T00:42:39.537Z] Node Version:  v18.18.0
+[debug] [2024-09-26T00:42:39.538Z] Time:          Wed Sep 25 2024 20:42:39 GMT-0400 (hora de Bolivia)
+[debug] [2024-09-26T00:42:39.538Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-26T00:42:39.541Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as tjonatan0320@gmail.com
+[debug] [2024-09-26T00:42:49.578Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-09-26T00:43:29.624Z] ----------------------------------------------------------------------
+[debug] [2024-09-26T00:43:29.625Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-09-26T00:43:29.626Z] CLI Version:   13.19.0
+[debug] [2024-09-26T00:43:29.626Z] Platform:      win32
+[debug] [2024-09-26T00:43:29.626Z] Node Version:  v18.18.0
+[debug] [2024-09-26T00:43:29.627Z] Time:          Wed Sep 25 2024 20:43:29 GMT-0400 (hora de Bolivia)
+[debug] [2024-09-26T00:43:29.627Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-26T00:43:29.629Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as tjonatan0320@gmail.com
+[debug] [2024-09-26T00:43:39.668Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
